@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="App Players"
+        android:textStyle="italic"
+        android:textSize="40dp"
+        android:layout_margin="30dp"
+        android:textColor="@color/colorAccent"
+        android:textAlignment="center"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Admin Clubes"
+        android:textSize="20dp"
+        android:layout_margin="40dp"
+        android:textAlignment="center"
+        android:id="@+id/admClubes"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Admin Jugadores"
+        android:textSize="20dp"
+        android:layout_margin="40dp"
+        android:textAlignment="center"
+        android:id="@+id/admJugadores"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Admin Partidos"
+        android:textSize="20dp"
+        android:layout_margin="40dp"
+        android:textAlignment="center"
+        android:id="@+id/admPartidos"
+        />
+
+</LinearLayout>

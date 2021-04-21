@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LineaLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/info_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nuevo Club"
+        android:textSize="30dp"
+        android:textAlignment="center"
+        />
+
+    <EditText
+        android:id="@+id/txtNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="nombre"
+        android:textSize="20dp"/>
+
+    <EditText
+        android:id="@+id/txtnroZona"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nro de Zona"
+        android:textSize="20dp"/>
+
+    <Button
+        android:id="@+id/btnAceptar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Aceptar"
+        />
+</LineaLayout>
