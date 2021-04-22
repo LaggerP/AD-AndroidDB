@@ -31,10 +31,8 @@ public class MainActivity extends AppCompatActivity {
         btnJugadores.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                /**
-                 * Agregue el código para llegar una actividad para ingresar jugadores
-                 *
-                 * */
+                Intent intent = new Intent(MainActivity.this, JugadoresActivity.class);
+                startActivity(intent);
             }
         });
 
